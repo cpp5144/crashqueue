@@ -1,0 +1,12 @@
+{
+  "name": "crashqueue",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A durable SQLite job queue with crash recovery and fenced leases",
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "demo": "node demo.mjs",
+    "test": "node --test"
+  }
+}
